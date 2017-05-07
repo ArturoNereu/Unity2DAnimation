@@ -10,7 +10,17 @@ public class SwitchSkin : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		
+	void Update ()
+    {
+	    if(Input.GetKeyDown(KeyCode.M))
+        {
+
+        }
+        else if(Input.GetKeyDown(KeyCode.F))
+        {
+
+        }
 	}
+
+
 }
