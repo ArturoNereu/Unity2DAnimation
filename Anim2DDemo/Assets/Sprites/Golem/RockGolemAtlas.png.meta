@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 1cdecebbc1f6140ed936c46e6b9ef62a
-timeCreated: 1492741276
+timeCreated: 1500477649
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
@@ -30,6 +30,8 @@ TextureImporter:
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
@@ -45,10 +47,13 @@ TextureImporter:
   textureFormat: 1
   maxTextureSize: 2048
   textureSettings:
+    serializedVersion: 2
     filterMode: -1
     aniso: -1
     mipBias: -1
-    wrapMode: 1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -108,6 +113,14 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -122,7 +135,26 @@ TextureImporter:
       alignment: 9
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -23.5, y: 109}
+        - {x: -62.5, y: 93}
+        - {x: -143.5, y: 46}
+        - {x: -154.5, y: 10}
+        - {x: -154.5, y: -62}
+        - {x: -107.5, y: -109}
+        - {x: 130.5, y: -109}
+        - {x: 153.5, y: -34}
+        - {x: 153.5, y: 62}
+        - {x: 34.5, y: 109}
+      physicsShape:
+      - - {x: -79.5, y: 108}
+        - {x: -153.5, y: 53}
+        - {x: -153.5, y: -91}
+        - {x: -114.5, y: -107}
+        - {x: 132.5, y: -107}
+        - {x: 151.5, y: -83}
+        - {x: 151.5, y: 53}
+        - {x: 92.5, y: 108}
       tessellationDetail: 0
     - serializedVersion: 2
       name: RockGolemAtlas_1
@@ -135,7 +167,22 @@ TextureImporter:
       alignment: 9
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -190.5, y: 61}
+        - {x: -190.5, y: -38}
+        - {x: -172.5, y: -63}
+        - {x: 192.5, y: -63}
+        - {x: 192.5, y: 28}
+        - {x: 124.5, y: 61}
+      physicsShape:
+      - - {x: 179.5, y: 60}
+        - {x: -188.5, y: 60}
+        - {x: -188.5, y: -33}
+        - {x: -149.5, y: -62}
+        - {x: 156.5, y: -62}
+        - {x: 190.5, y: -23}
+        - {x: 191.5, y: -20}
+        - {x: 191.5, y: 41}
       tessellationDetail: 0
     - serializedVersion: 2
       name: RockGolemAtlas_2
@@ -148,20 +195,58 @@ TextureImporter:
       alignment: 9
       pivot: {x: 0.49999997, y: 0.5063613}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -288, y: 196.5}
+        - {x: -288, y: -38.5}
+        - {x: -216, y: -191.5}
+        - {x: 224, y: -191.5}
+        - {x: 288, y: -101.5}
+        - {x: 288, y: 196.5}
+      physicsShape:
+      - - {x: -91, y: 196.5}
+        - {x: -160, y: 187.5}
+        - {x: -237, y: 143.5}
+        - {x: -286, y: 79.5}
+        - {x: -286, y: -60.5}
+        - {x: -230, y: -190.5}
+        - {x: 205, y: -190.5}
+        - {x: 287, y: -65.5}
+        - {x: 287, y: 108.5}
+        - {x: 170, y: 196.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: RockGolemAtlas_3
       rect:
         serializedVersion: 2
-        x: 1674
-        y: 860
-        width: 217
-        height: 203
+        x: 1672
+        y: 858
+        width: 221
+        height: 207
       alignment: 9
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -105.5, y: -66.5}
+        - {x: -65.5, y: -98.5}
+        - {x: -22.5, y: -98.5}
+        - {x: 105.5, y: -45.5}
+        - {x: 105.5, y: 47.5}
+        - {x: 81.5, y: 98.5}
+        - {x: -76.5, y: 98.5}
+        - {x: -105.5, y: -5.5}
+      physicsShape:
+      - - {x: 69.5, y: 97.5}
+        - {x: -30.5, y: 97.5}
+        - {x: -86.5, y: 78.5}
+        - {x: -104.5, y: 8.5}
+        - {x: -104.5, y: -44.5}
+        - {x: -99.5, y: -54.5}
+        - {x: -78.5, y: -81.5}
+        - {x: -54.5, y: -95.5}
+        - {x: -39.5, y: -95.5}
+        - {x: 103.5, y: -45.5}
+        - {x: 103.5, y: 44.5}
+        - {x: 88.5, y: 86.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: RockGolemAtlas_4
@@ -174,7 +259,26 @@ TextureImporter:
       alignment: 9
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: 95, y: 105.5}
+        - {x: 86, y: 107.5}
+        - {x: -74, y: 107.5}
+        - {x: -122, y: 50.5}
+        - {x: -122, y: -86.5}
+        - {x: -81, y: -108.5}
+        - {x: 92, y: -108.5}
+        - {x: 101, y: -98.5}
+        - {x: 122, y: -37.5}
+        - {x: 122, y: 70.5}
+      physicsShape:
+      - - {x: -121, y: 106.5}
+        - {x: -121, y: -42.5}
+        - {x: -84, y: -103.5}
+        - {x: -68, y: -107.5}
+        - {x: 44, y: -107.5}
+        - {x: 120, y: -77.5}
+        - {x: 120, y: 81.5}
+        - {x: 112, y: 106.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: RockGolemAtlas_5
@@ -187,7 +291,21 @@ TextureImporter:
       alignment: 9
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -154, y: 81}
+        - {x: -181, y: 27}
+        - {x: -181, y: -81}
+        - {x: 142, y: -81}
+        - {x: 181, y: -58}
+        - {x: 181, y: 69}
+        - {x: 130, y: 81}
+      physicsShape:
+      - - {x: -180, y: 79}
+        - {x: -180, y: -80}
+        - {x: 157, y: -80}
+        - {x: 179, y: -65}
+        - {x: 179, y: 50}
+        - {x: 175, y: 79}
       tessellationDetail: 0
     - serializedVersion: 2
       name: RockGolemAtlas_6
@@ -200,7 +318,24 @@ TextureImporter:
       alignment: 9
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -38, y: 81}
+        - {x: -117, y: 43}
+        - {x: -117, y: -63}
+        - {x: -86, y: -81}
+        - {x: 83, y: -81}
+        - {x: 117, y: -65}
+        - {x: 117, y: 31}
+        - {x: 54, y: 81}
+      physicsShape:
+      - - {x: -23, y: 80}
+        - {x: -83, y: 61}
+        - {x: -116, y: 14}
+        - {x: -116, y: -72}
+        - {x: -87, y: -80}
+        - {x: 115, y: -80}
+        - {x: 115, y: 40}
+        - {x: 58, y: 80}
       tessellationDetail: 0
     - serializedVersion: 2
       name: RockGolemAtlas_7
@@ -213,7 +348,24 @@ TextureImporter:
       alignment: 9
       pivot: {x: 0.49999997, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -54.999996, y: 68.5}
+        - {x: -60.999996, y: 44.5}
+        - {x: -60.999996, y: -53.5}
+        - {x: -53.999996, y: -66.5}
+        - {x: 50.000004, y: -66.5}
+        - {x: 61.000004, y: -65.5}
+        - {x: 61.000004, y: 59.5}
+        - {x: 29.000004, y: 68.5}
+      physicsShape:
+      - - {x: -36.999996, y: 68.5}
+        - {x: -59.999996, y: 56.5}
+        - {x: -59.999996, y: -35.5}
+        - {x: -49.999996, y: -65.5}
+        - {x: 36.000004, y: -65.5}
+        - {x: 60.000004, y: -34.5}
+        - {x: 60.000004, y: 54.5}
+        - {x: 46.000004, y: 68.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: RockGolemAtlas_8
@@ -226,20 +378,61 @@ TextureImporter:
       alignment: 9
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: 43.5, y: 98.5}
+        - {x: -71.5, y: 98.5}
+        - {x: -78.5, y: 96.5}
+        - {x: -105.5, y: 3.5}
+        - {x: -105.5, y: -68.5}
+        - {x: -53.5, y: -98.5}
+        - {x: -35.5, y: -98.5}
+        - {x: 65.5, y: -58.5}
+        - {x: 105.5, y: -31.5}
+        - {x: 105.5, y: 69.5}
+      physicsShape:
+      - - {x: -58.5, y: 97.5}
+        - {x: -104.5, y: 11.5}
+        - {x: -104.5, y: -53.5}
+        - {x: -93.5, y: -69.5}
+        - {x: -77.5, y: -80.5}
+        - {x: -53.5, y: -95.5}
+        - {x: 79.5, y: -95.5}
+        - {x: 103.5, y: -69.5}
+        - {x: 103.5, y: 97.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: RockGolemAtlas_9
       rect:
         serializedVersion: 2
-        x: 875
-        y: 479
-        width: 166
-        height: 175
+        x: 873
+        y: 477
+        width: 170
+        height: 179
       alignment: 9
-      pivot: {x: 0.49999997, y: 0.5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: 57, y: 84.5}
+        - {x: 35, y: 84.5}
+        - {x: 28, y: 76.5}
+        - {x: -36, y: 84.5}
+        - {x: -59, y: 84.5}
+        - {x: -80, y: 75.5}
+        - {x: -80, y: -61.5}
+        - {x: -48, y: -84.5}
+        - {x: 7, y: -84.5}
+        - {x: 61, y: -66.5}
+        - {x: 80, y: -31.5}
+        - {x: 80, y: 10.5}
+        - {x: 69, y: 81.5}
+      physicsShape:
+      - - {x: -79, y: 83.5}
+        - {x: -79, y: -68.5}
+        - {x: -58, y: -83.5}
+        - {x: 7, y: -83.5}
+        - {x: 64, y: -68.5}
+        - {x: 78, y: -39.5}
+        - {x: 78, y: 83.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: RockGolemAtlas_10
@@ -252,7 +445,25 @@ TextureImporter:
       alignment: 9
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -70.5, y: 97}
+        - {x: -109.5, y: 79}
+        - {x: -109.5, y: -52}
+        - {x: -94.5, y: -97}
+        - {x: 79.5, y: -97}
+        - {x: 109.5, y: -46}
+        - {x: 109.5, y: 72}
+        - {x: 51.5, y: 97}
+      physicsShape:
+      - - {x: -41.5, y: 96}
+        - {x: -99.5, y: 86}
+        - {x: -108.5, y: 50}
+        - {x: -108.5, y: -45}
+        - {x: -68.5, y: -96}
+        - {x: 56.5, y: -96}
+        - {x: 107.5, y: -61}
+        - {x: 107.5, y: 74}
+        - {x: 73.5, y: 96}
       tessellationDetail: 0
     - serializedVersion: 2
       name: RockGolemAtlas_11
@@ -265,7 +476,16 @@ TextureImporter:
       alignment: 9
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -4, y: 3}
+        - {x: -3, y: -8}
+        - {x: 1, y: -12}
+        - {x: 4, y: -11}
+        - {x: 4, y: -4}
+        - {x: 2, y: 11}
+        - {x: -1, y: 12}
+        - {x: -4, y: 11}
+      physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: RockGolemAtlas_12
@@ -278,7 +498,25 @@ TextureImporter:
       alignment: 9
       pivot: {x: 0.49999997, y: 0.49999994}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -111, y: 205.49998}
+        - {x: -177, y: 174.49998}
+        - {x: -223, y: 17.499985}
+        - {x: -223, y: -194.50002}
+        - {x: -204, y: -203.50002}
+        - {x: 162, y: -203.50002}
+        - {x: 223, y: -165.50002}
+        - {x: 223, y: 25.499985}
+        - {x: 100, y: 205.49998}
+      physicsShape:
+      - - {x: -144, y: 204.49998}
+        - {x: -221, y: 117.499985}
+        - {x: -221, y: -201.50002}
+        - {x: 101, y: -201.50002}
+        - {x: 187, y: -187.50002}
+        - {x: 221, y: -143.50002}
+        - {x: 221, y: 24.499985}
+        - {x: 123, y: 204.49998}
       tessellationDetail: 0
     - serializedVersion: 2
       name: RockGolemAtlas_13
@@ -291,7 +529,26 @@ TextureImporter:
       alignment: 9
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -64.5, y: 83}
+        - {x: -74.5, y: 80}
+        - {x: -95.5, y: 25}
+        - {x: -95.5, y: -63}
+        - {x: -75.5, y: -83}
+        - {x: 61.5, y: -83}
+        - {x: 97.5, y: -62}
+        - {x: 97.5, y: 59}
+        - {x: 52.5, y: 83}
+      physicsShape:
+      - - {x: -13.5, y: 82}
+        - {x: -74.5, y: 58}
+        - {x: -93.5, y: 18}
+        - {x: -93.5, y: -59}
+        - {x: -67.5, y: -81}
+        - {x: 52.5, y: -81}
+        - {x: 95.5, y: -46}
+        - {x: 95.5, y: 41}
+        - {x: 61.5, y: 82}
       tessellationDetail: 0
     - serializedVersion: 2
       name: RockGolemAtlas_14
@@ -304,7 +561,27 @@ TextureImporter:
       alignment: 9
       pivot: {x: 0.49999982, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -22.499939, y: 83}
+        - {x: -59.49994, y: 63}
+        - {x: -96.49994, y: 38}
+        - {x: -96.49994, y: -52}
+        - {x: -80.49994, y: -83}
+        - {x: 50.50006, y: -83}
+        - {x: 96.50006, y: -28}
+        - {x: 96.50006, y: 59}
+        - {x: 51.50006, y: 83}
+      physicsShape:
+      - - {x: 52.50006, y: 82}
+        - {x: -41.49994, y: 82}
+        - {x: -94.49994, y: 37}
+        - {x: -94.49994, y: -55}
+        - {x: -77.49994, y: -81}
+        - {x: 47.50006, y: -81}
+        - {x: 66.50006, y: -78}
+        - {x: 93.50006, y: -8}
+        - {x: 94.50006, y: -5}
+        - {x: 94.50006, y: 39}
       tessellationDetail: 0
     - serializedVersion: 2
       name: RockGolemAtlas_15
@@ -317,7 +594,24 @@ TextureImporter:
       alignment: 9
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: 71.5, y: 184.5}
+        - {x: -91.5, y: 184.5}
+        - {x: -203.5, y: 137.5}
+        - {x: -203.5, y: -172.5}
+        - {x: -148.5, y: -182.5}
+        - {x: 100.5, y: -182.5}
+        - {x: 156.5, y: -164.5}
+        - {x: 204.5, y: -49.5}
+        - {x: 204.5, y: 72.5}
+      physicsShape:
+      - - {x: -108.5, y: 183.5}
+        - {x: -201.5, y: 99.5}
+        - {x: -201.5, y: -181.5}
+        - {x: 171.5, y: -181.5}
+        - {x: 203.5, y: -127.5}
+        - {x: 203.5, y: 63.5}
+        - {x: 118.5, y: 183.5}
       tessellationDetail: 0
     - serializedVersion: 2
       name: RockGolemAtlas_16
@@ -330,7 +624,23 @@ TextureImporter:
       alignment: 9
       pivot: {x: 0.5, y: 0.49999997}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -119, y: -96}
+        - {x: -108, y: -101}
+        - {x: -94, y: -102}
+        - {x: 121, y: -102}
+        - {x: 121, y: 87}
+        - {x: 116, y: 104}
+        - {x: -78, y: 104}
+        - {x: -119, y: 38}
+      physicsShape:
+      - - {x: -117, y: -86}
+        - {x: -106, y: -101}
+        - {x: 119, y: -101}
+        - {x: 119, y: 39}
+        - {x: 96, y: 102}
+        - {x: -29, y: 102}
+        - {x: -117, y: 25}
       tessellationDetail: 0
     - serializedVersion: 2
       name: RockGolemAtlas_17
@@ -343,10 +653,27 @@ TextureImporter:
       alignment: 9
       pivot: {x: 0.5, y: 0.49999997}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -119, y: -96}
+        - {x: -108, y: -101}
+        - {x: -94, y: -102}
+        - {x: 121, y: -102}
+        - {x: 121, y: 87}
+        - {x: 116, y: 104}
+        - {x: -78, y: 104}
+        - {x: -119, y: 38}
+      physicsShape:
+      - - {x: -117, y: -86}
+        - {x: -106, y: -101}
+        - {x: 119, y: -101}
+        - {x: 119, y: 39}
+        - {x: 96, y: 102}
+        - {x: -29, y: 102}
+        - {x: -117, y: 25}
       tessellationDetail: 0
     outline: []
-  spritePackingTag: 
-  userData: 97828289904640
+    physicsShape: []
+  spritePackingTag: golem
+  userData: 98146132414427
   assetBundleName: 
   assetBundleVariant: 
